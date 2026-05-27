@@ -13,7 +13,7 @@ mode = st.selectbox(
 
 query = ""
 
-if mode == "メール作業モード":
+if mode == "メール作成モード":
     inquiry = st.text_area("お問い合わせ内容")
     history = st.text_area("過去のやり取り")
     query = f"""
